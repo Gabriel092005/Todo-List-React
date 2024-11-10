@@ -1,0 +1,48 @@
+{
+  "name": "03-dt-money",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "dev:server": "json-server server.json",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@hookform/resolvers": "^3.9.0",
+    "@mui/material": "^6.1.2",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-radio-group": "^1.2.1",
+    "axios": "^1.7.7",
+    "date-fns": "^4.1.0",
+    "immer": "^10.1.1",
+    "phosphor": "^0.7.1",
+    "phosphor-react": "^1.4.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hook-form": "^7.53.0",
+    "react-router-dom": "^6.26.2",
+    "react-slick": "^0.30.2",
+    "slick-carousel": "^1.8.1",
+    "styled-components": "^6.1.13",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.11.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@types/react-slick": "^0.23.13",
+    "@types/styled-components": "^5.1.34",
+    "@vitejs/plugin-react": "^4.3.2",
+    "eslint": "^9.11.1",
+    "eslint-plugin-react-hooks": "^5.1.0-rc.0",
+    "eslint-plugin-react-refresh": "^0.4.12",
+    "globals": "^15.9.0",
+    "json-server": "^1.0.0-beta.3",
+    "typescript": "^5.6.2",
+    "typescript-eslint": "^8.7.0",
+    "vite": "^5.4.8"
+  }
+}
